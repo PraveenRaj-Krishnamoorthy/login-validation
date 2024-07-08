@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form action="" method="" name="formdata" class="formdata">
+        <table>
+            <tr>
+                <th>Name: </th>
+                <td><input type="text" name="user" placeholder="Enter Name.."></td>
+            </tr>
+            <tr>
+                <th>Area: </th>
+                <td><input type="text" name="area" placeholder="Enter Area.."></td>
+            </tr>
+            <tr>
+                <th>Pincode: </th>
+                <td><input type="number" name="pin" placeholder="Enter Pincode.."></td>
+                <td>
+                    <button onclick="add()" type="button" class="add d-none">Add</button>
+                    <button onclick="update()" type="button" class="update d-none">Update</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="show"></div>
+    <script src="login.js"></script>
+</body>
+
+</html>
